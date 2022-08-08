@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
 // import Placeholder from 'react-bootstrap/Placeholder';
+import Stack from 'react-bootstrap/Stack';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
@@ -106,9 +107,12 @@ function App() {
 
     <Container className='abtAndJpicCon'>
     
-      <Button onClick={() => setLgShow(true)}>Click to leave your contact info</Button>
+    <Stack gap={3}>
+      <div className="bg-light border"><Button onClick={() => setLgShow(true)}>Click to leave your contact info</Button></div>
       
-      <Modal
+      
+    </Stack>  
+    <Modal
         size="lg"
         show={lgShow}
         onHide={() => setLgShow(false)}
@@ -138,10 +142,24 @@ function App() {
       </Button>
     </Form></Modal.Body>
       </Modal>
-
+     
 
     </Container>
-
+    <Container className ="abtAndJpicCon">
+    <div className="resume justify-content-around">
+      <Card style={{ width: '50rem' }}>
+        <Card.Img variant="top" src="/resumeImage.png" />
+        <Card.Body>
+          <Card.Title>Resume</Card.Title>
+          <Card.Text>
+          <div className="bg-light border"><Button variant="primary" type="submit">Click to download resume</Button></div>
+          
+          </Card.Text>
+          
+        </Card.Body>
+      </Card>  
+    </div>
+    </Container>
 
       
     </>
