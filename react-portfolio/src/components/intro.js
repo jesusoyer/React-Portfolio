@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 function Intro(){
     return(
-<Container className="abtAndJpicCon">
+<Container className="abtAndJpicCon" id="aboutMe">
         <Row lg={6}>
           <Col lg={6}>
             <h1 className="aboutme">

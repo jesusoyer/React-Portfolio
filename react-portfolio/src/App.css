@@ -59,9 +59,10 @@ margin-bottom:10%;
 
 .carouselParagraph{
   color:black;
-  background-color: rgb(211,211,211);opacity:0.5;
+  background-color: rgb(211,211,211);
   border-radius: 5%;
   margin-top: 220px;
+  
 }
 .bg-light{
   width: 23%;
@@ -72,24 +73,40 @@ margin-bottom:10%;
 
 .resumeCard{
   margin-left:20%;
-  margin-top: 100px;
-  margin-bottom: 20px;;
+  margin-top: 50px;
+  margin-bottom: 50px;;
 }
 .contactCard{
   margin-left:20%;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom:50px;
 }
-.row{
-  
+
+.downloadResumeBtn{
+  margin-left: 150%;
+height: 100%;
 }
 
 .container{
   max-width: 100%;
   background-color: black;
+  
 }
 .footerPics{
 width:50px;
 }
+
+
 .bottomLink{
   margin-left: 40%;
+  
+  text-decoration: underline;
+}
+
+
+
+.footerCard{
+  color:white;
+  margin-left: 10%;
+  margin-right:10%;
 }

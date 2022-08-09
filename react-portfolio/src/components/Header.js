@@ -8,12 +8,12 @@ function Header() {
 
 <Navbar bg="dark" variant="dark">
 <Container>
-  <Navbar.Brand>Jesus's Portfolio</Navbar.Brand>
+  <Navbar.Brand id = "top">Jesus's Portfolio</Navbar.Brand>
   <Nav className="me-auto">
-    <Nav.Link href="#introduction">About Me</Nav.Link>
-    <Nav.Link href="#featuredProject">Projects</Nav.Link>
-    <Nav.Link href="#otherProjects">Contact</Nav.Link>
-    <Nav.Link href="#contact">Resume</Nav.Link>
+    <Nav.Link href="#aboutMe">About Me</Nav.Link>
+    <Nav.Link href="#featured">Projects</Nav.Link>
+    <Nav.Link href="#contactMe">Contact Info</Nav.Link>
+    <Nav.Link href="#footer">Social Media</Nav.Link>
   </Nav>
 </Container>
 </Navbar>

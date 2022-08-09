@@ -17,26 +17,27 @@ function ContactMeContainer (){
         <Col>
           <Card className="contactCard" style={{ width: "20rem" }}>
             <Card.Body>
+            <Card.Title>Contact me</Card.Title>
               <Form>
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
                 >
-                  <Form.Label>Enter name</Form.Label>
+                  <Form.Label>Enter your name</Form.Label>
                   <Form.Control type="textarea" placeholder="" />
                 </Form.Group>
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
                 >
-                  <Form.Label>Email address</Form.Label>
+                  <Form.Label>Enter your email</Form.Label>
                   <Form.Control type="email" placeholder="name@example.com" />
                 </Form.Group>
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlTextarea1"
                 >
-                  <Form.Label>Example textarea</Form.Label>
+                  <Form.Label>Leave a Message</Form.Label>
                   <Form.Control as="textarea" rows={3} />
                 </Form.Group>
               </Form>
@@ -59,12 +60,9 @@ function ContactMeContainer (){
                 <Card.Title>Proficiencies</Card.Title>
 
                 <Card.Text>
-                  skilled in
+                  <p> Javascript, HTML, CSS, Bootstrap, JQuery, Node.js, MySQL, Express.js, React, Express-Sessions, MongoDB, Mongoose ODM, MongoDB Compass, Express-Handlebars, Dotenv, Bcrypt, NoSQL, Sequelize ORM, Git , Git-Hub, VS Code, Slack,  APIs, CRUD, Heroku, Jira, Insomnia, RestfulApi’s, concurrently, Apollo-server-express, Graphql.</p>
                   <div className="bg-light border">
-                    <Button variant="primary" type="submit">
-                      {" "}
-                      download resume
-                    </Button>
+                    <Button className="downloadResumeBtn" variant="primary" type="submit">Download Resume</Button>
                   </div>
                 </Card.Text>
               </Card.Body>
