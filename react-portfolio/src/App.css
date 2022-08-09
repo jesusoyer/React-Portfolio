@@ -1,4 +1,6 @@
-
+.background{
+  background-color: black;
+}
 
 .abtAndJpicCon{
   background-color: black;
@@ -41,6 +43,7 @@ margin-bottom:10%;
 
 .otherProjectsContainer{
   background-color: black;
+  
 }
 .d-block{
   margin-left:25%;
@@ -65,4 +68,28 @@ margin-bottom:10%;
 }
 .resume{
   
+}
+
+.resumeCard{
+  margin-left:20%;
+  margin-top: 100px;
+  margin-bottom: 20px;;
+}
+.contactCard{
+  margin-left:20%;
+  margin-top: 100px;
+}
+.row{
+  
+}
+
+.container{
+  max-width: 100%;
+  background-color: black;
+}
+.footerPics{
+width:50px;
+}
+.bottomLink{
+  margin-left: 40%;
 }
