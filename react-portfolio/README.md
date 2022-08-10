@@ -8,6 +8,12 @@ This is a new porfolio page using react. I am excited to have you look at my app
 Click here to view my portfolio  https://jesusoyer.github.io/React-Portfolio/ .
 
 
+![portfoliopicture](https://user-images.githubusercontent.com/88277371/183976730-f888aec5-e0ce-4275-a7b9-f0a9f74b1b29.png)
+
+
+
+
+
 ## Credits
 React
 
