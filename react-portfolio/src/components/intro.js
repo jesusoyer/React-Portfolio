@@ -10,12 +10,11 @@ function Intro(){
         <Row lg={6}>
           <Col lg={6}>
             <h1 className="aboutme">
-              Proactive and personable aspiring full-stack web developer
-              currently pursuing a Web Development Boot Camp professional
-              certification from the University of Texas in Austin, Texas. A
-              strong team player and proven leader, leading multiple group
-              projects. Passionate about web development, and a quick learner of
-              web development technologies.
+              Hello, My name is Jesus Oyervides jr, I am a recent graduate from the University of Texas fullstack coding bootcamp.
+              I love creating new things from plastic models to fullstack applications. I have a love for making restfull APIs, and 
+              you will most often find me here at my computer or out trying the next big thing. Below I have projects that I am excited
+              to show you along with my social media information and if you are feeling even more adventurous feel free to download my resume and leave me a message. 
+             
             </h1>
           </Col>
 

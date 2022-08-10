@@ -5,12 +5,24 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
+import React, {useState}from "react"
 
 function ContactMeContainer (){
-    return(
+  const [data, setData]=useState(null);  
+  const [print,setPrint]=useState(false);
 
 
+  function getName(data){
+    data.preventDefault();
+      setData(data.target.value)
+      console.log(data.target.value)
+      console('button clicked')
+    }
+  
+  
+  return(
+
+    
 
       <Container className="abtAndJpicCon">
       <Row>
@@ -23,8 +35,8 @@ function ContactMeContainer (){
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
                 >
-                  <Form.Label>Enter your name</Form.Label>
-                  <Form.Control type="textarea" placeholder="" />
+                  <h1>{data}</h1>
+                  <Form.Control type="textarea" placeholder="Enter your name" onChange={getName} />
                 </Form.Group>
                 <Form.Group
                   className="mb-3"
@@ -44,7 +56,7 @@ function ContactMeContainer (){
 
               <Card.Text>
                 <div className="bg-light border">
-                  <Button variant="primary" type="submit">
+                  <Button active onClick={()=>setPrint(true)} variant="primary" type="submit" >
                     Submit
                   </Button>
                 </div>
@@ -60,9 +72,11 @@ function ContactMeContainer (){
                 <Card.Title>Proficiencies</Card.Title>
 
                 <Card.Text>
-                  <p> Javascript, HTML, CSS, Bootstrap, JQuery, Node.js, MySQL, Express.js, React, Express-Sessions, MongoDB, Mongoose ODM, MongoDB Compass, Express-Handlebars, Dotenv, Bcrypt, NoSQL, Sequelize ORM, Git , Git-Hub, VS Code, Slack,  APIs, CRUD, Heroku, Jira, Insomnia, RestfulApi’s, concurrently, Apollo-server-express, Graphql.</p>
-                  <div className="bg-light border">
-                    <Button className="downloadResumeBtn" variant="primary" type="submit">Download Resume</Button>
+                  <p> Javascript, HTML, CSS, Bootstrap, JQuery, Node.js, MySQL, Express.js, React, Express-Sessions, MongoDB, Mongoose ODM, MongoDB Compass, Express-Handlebars, Dotenv, Bcrypt, NoSQL, Sequelize ORM, Git , Git-Hub, VS Code, Slack,  APIs, CRUD, Heroku, Jira, Insomnia, RestfulApi’s, concurrently, Apollo-server-express, Graphql, Webpack.</p>
+                  <div className="bg-light ">
+                    
+
+                    <Button className="downloadResumeBtn" variant="primary" type="submit"><a className = "resumeDownload" href="/resume.docx" download="resume.docx">Download Resume</a></Button>
                   </div>
                 </Card.Text>
               </Card.Body>
