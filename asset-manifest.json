@@ -1,15 +1,25 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c10fd7c7.css",
-    "main.js": "/React-Portfolio/static/js/main.f6669767.js",
+    "main.js": "/React-Portfolio/static/js/main.2789fba9.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/eagleeye.png": "/React-Portfolio/static/media/eagleeye.5e6d2bf7a440f8261b8e.png",
+    "static/media/mainPic.jpeg": "/React-Portfolio/static/media/mainPic.9b38df36a16e8bc7bd66.jpeg",
+    "static/media/BiblioTecha.png": "/React-Portfolio/static/media/BiblioTecha.091e61e096409ce3930e.png",
+    "static/media/employeeTracker.png": "/React-Portfolio/static/media/employeeTracker.f31f55d8b959423c2870.png",
+    "static/media/weatherDashboard.png": "/React-Portfolio/static/media/weatherDashboard.2fc0e4b1fce67db59ba7.png",
+    "static/media/DayPlanner.png": "/React-Portfolio/static/media/DayPlanner.5cb6fa6a674f91a42876.png",
+    "static/media/Quiz game.png": "/React-Portfolio/static/media/Quiz game.13f8519bcf91245a4858.png",
+    "static/media/PasswordGenerator.png": "/React-Portfolio/static/media/PasswordGenerator.8223176bc34cb1e9f716.png",
+    "static/media/gitHubImage.png": "/React-Portfolio/static/media/gitHubImage.6149aa5ccbc036755594.png",
+    "static/media/linkedin.png": "/React-Portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/React-Portfolio/index.html",
     "main.c10fd7c7.css.map": "/React-Portfolio/static/css/main.c10fd7c7.css.map",
-    "main.f6669767.js.map": "/React-Portfolio/static/js/main.f6669767.js.map",
+    "main.2789fba9.js.map": "/React-Portfolio/static/js/main.2789fba9.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c10fd7c7.css",
-    "static/js/main.f6669767.js"
+    "static/js/main.2789fba9.js"
   ]
 }
