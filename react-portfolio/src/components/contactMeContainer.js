@@ -7,6 +7,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import React, {useState}from "react"
 
+
+import Resume from "../images/reactResume.png"
 function ContactMeContainer (){
   const [data, setData]=useState(null);  
   const [print,setPrint]=useState(false);
@@ -76,7 +78,7 @@ function ContactMeContainer (){
                   <div className="bg-light ">
                     
 
-                    <Button className="downloadResumeBtn" variant="primary" type="submit"><a className = "resumeDownload" href="/resume.docx" download="resume.docx">Download Resume</a></Button>
+                    <Button className="downloadResumeBtn" variant="primary" type="submit"><a className = "resumeDownload" href={Resume}  download={Resume}>Download Resume</a></Button>
                   </div>
                 </Card.Text>
               </Card.Body>
