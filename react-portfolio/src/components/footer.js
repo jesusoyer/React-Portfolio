@@ -1,3 +1,6 @@
+import linkedInPic from "../images/linkedin.png"
+import githubPic from "../images/gitHubImage.png"
+import stackoverflowPic from "../images/stackoverflow.png"
 
 import Card from "react-bootstrap/Card";
 import Nav from "react-bootstrap/Nav";
@@ -17,7 +20,7 @@ function Footer (){
             <Col>
             <a href="https://www.linkedin.com/in/jesus-oyervides-51b89820b/">LinkedIn  </a> 
               <img
-                src="/linkedin.png"
+                src={linkedInPic}
                 alt="linkedInPic"
                 className="footerPics"
               ></img>
@@ -25,7 +28,7 @@ function Footer (){
             <Col>
             <a href="https://github.com/jesusoyer">GitHub  </a> 
               <img
-                src="/GitHub_Logo_White.png"
+                src={githubPic}
                 alt="githubPic"
                 className="footerPics"
               ></img>
@@ -34,7 +37,7 @@ function Footer (){
             <a href="https://stackoverflow.com/users/18030586/jesus-oyervides">StackOverflow</a> 
               
               <img
-                src="/stackoverflow.png"
+                src={stackoverflowPic}
                 alt="stackoverflowPic"
                 className="footerPics"
               ></img>

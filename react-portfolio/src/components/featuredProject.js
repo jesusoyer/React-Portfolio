@@ -1,3 +1,5 @@
+import biblioTECHa from "../images/BiblioTecha.png"
+
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 
@@ -9,7 +11,7 @@ function FeaturedArea (){
       <Container className="featuredContainer">
         <div className="d-flex justify-content-around">
           <Card style={{ width: "70rem" }}>
-            <Card.Img variant="top" src="/BiblioTecha.png" />
+            <Card.Img variant="top" src={biblioTECHa} />
             <Card.Body>
               <Card.Title>biblioTecha</Card.Title>
               <Card.Text>

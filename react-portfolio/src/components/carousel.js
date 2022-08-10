@@ -1,3 +1,10 @@
+import eagleeye from "../images/eagleeye.png"
+import DayPlanner from "../images/DayPlanner.png"
+import weatherDashboard from "../images/weatherDashboard.png"
+import employeeTracker from "../images/employeeTracker.png"
+import quizGame from "../images/Quiz game.png"
+import PasswordGenerator from "../images/PasswordGenerator.png"
+
 
 
 import Container from "react-bootstrap/Container";
@@ -11,7 +18,7 @@ function ProjectsCarousel(){
           <Carousel.Item>
             <img
               className="d-block w-50"
-              src="/eagleeye.png"
+              src={eagleeye}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -38,7 +45,7 @@ function ProjectsCarousel(){
           <Carousel.Item>
             <img
               className="d-block w-50"
-              src="/DayPlanner.png"
+              src={DayPlanner}
               alt="Second slide"
             />
 
@@ -65,7 +72,7 @@ function ProjectsCarousel(){
           <Carousel.Item>
             <img
               className="d-block w-50"
-              src="/weatherDashboard.png"
+              src={weatherDashboard}
               alt="Second slide"
             />
 
@@ -88,7 +95,7 @@ function ProjectsCarousel(){
           <Carousel.Item>
             <img
               className="d-block w-50"
-              src="/employeeTracker.png"
+              src={employeeTracker}
               alt="Second slide"
             />
 
@@ -106,7 +113,7 @@ function ProjectsCarousel(){
           <Carousel.Item>
             <img
               className="d-block w-50"
-              src="/Quiz game.png"
+              src={quizGame}
               alt="Second slide"
             />
 
@@ -131,7 +138,7 @@ function ProjectsCarousel(){
           <Carousel.Item>
             <img
               className="d-block w-50"
-              src="/PasswordGenerator.png"
+              src={PasswordGenerator}
               alt="Second slide"
             />
 

@@ -1,8 +1,10 @@
 
+import mainPic from "../images/mainPic.jpeg"
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
 
 function Intro(){
     return(
@@ -19,7 +21,7 @@ function Intro(){
           </Col>
 
           <Col lg={6}>
-            <img src="/mainPic.jpeg" alt="jesusPic" className="jesusPic"></img>
+            <img src= {mainPic} alt="jesusPic" className="jesusPic"></img>
           </Col>
         </Row>
       </Container>
