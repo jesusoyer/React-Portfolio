@@ -9,7 +9,7 @@ function FeaturedArea (){
       <Container className="featuredContainer">
         <div className="d-flex justify-content-around">
           <Card style={{ width: "70rem" }}>
-            <Card.Img variant="top" src="biblioTecha.png" />
+            <Card.Img variant="top" src="/BiblioTecha.png" />
             <Card.Body>
               <Card.Title>biblioTecha</Card.Title>
               <Card.Text>
