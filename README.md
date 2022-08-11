@@ -14,6 +14,8 @@ Click here to view my portfolio  https://jesusoyer.github.io/React-Portfolio/ .
 
 
 ## Credits
-React
+React<br>
+React Bootstrap<br>
+
 
 
